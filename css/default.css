@@ -1,5 +1,6 @@
 .part1_bg {
-  background: url("../images/background3.jpeg") no-repeat;
+  /* background: url("../images/background3.jpeg") no-repeat; */
+  background-color: #343434;
   background-size: cover;
   position: relative;
   height:700px;
@@ -17,9 +18,17 @@
   background:rgba(0,0,0,0.5);
 }
 
+.firstWord {
+  color: #ee7062;
+  font-size: 28px;
+  font-weight: 800;
+  line-height: 1.2em;
+  display: inline-block;
+}
+
 .text {
-  margin-top: 100px;
-  margin-bottom: 100px;
+  margin-top: 10px;
+  margin-bottom: 160px;
   text-align: center;
   color: rgba(240,255,255, 0.85);
   font-family: Permanent Marker, serif;
@@ -61,4 +70,8 @@
   padding-top: 0.1em;
   padding-bottom: 0.1em;
   display: inline-block;
+}
+
+.part2-icon:hover{
+  color: rgba(205,92,92,0.75)
 }
