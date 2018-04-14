@@ -19,16 +19,46 @@
 
 .text {
   margin-top: 100px;
+  margin-bottom: 100px;
   text-align: center;
   color: rgba(240,255,255, 0.85);
-  font-family: "Courier New", Times, serif;
+  font-family: Permanent Marker, serif;
+}
+
+.text2 {
+  text-align: center;
+  color: rgba(240,255,255, 0.85);
+  font-family: Merriweather, serif;
 }
 
 .part1-icon{
   width: 44px;
   height: 44px;
+  color: rgba(240,255,255, 0.75)
+}
+
+.part1-icon:hover{
+  width: 50px;
+  height: 50px;
+  animation: 1s rainbow infinite;
+}
+@keyframes rainbow {
+  0% { color: rgba(144,238,144, 0.75); }
+  50% { color: orange; }
+  100% { color: yellowgreen; }
 }
 
 .part2-margintop {
   margin-top: 100px;
+}
+
+.hcc-r2 {
+  line-height: 1em;
+  font-style: italic;
+  background-color: rgba(255,255,255, 0.75);
+  color: #31321c;
+  margin-top: -0.1em;
+  padding-top: 0.1em;
+  padding-bottom: 0.1em;
+  display: inline-block;
 }

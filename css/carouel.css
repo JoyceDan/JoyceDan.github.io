@@ -43,10 +43,12 @@ body {
   margin-bottom: 1.5rem;
   text-align: center;
 }
-.marketing h2 {
+.marketing h4 {
   font-weight: 400;
+  margin-bottom: 50px;
 }
 .marketing .col-lg-4 p {
+  font-size: 14px;
   margin-right: .75rem;
   margin-left: .75rem;
 }
