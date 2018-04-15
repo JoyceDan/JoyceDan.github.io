@@ -22,10 +22,10 @@
       <div class="container d-flex flex-column flex-md-row justify-content-between">
 
         <a class="py-2 d-none d-md-inline-block" href="#intro">About</a>
-        <a class="py-2 d-none d-md-inline-block" href="#">Work</a>
-        <a class="py-2 d-none d-md-inline-block" href="#">Education</a>
-        <a class="py-2 d-none d-md-inline-block" href="#">Skills</a>
+        <a class="py-2 d-none d-md-inline-block" href="#work">Work</a>
+        <a class="py-2 d-none d-md-inline-block" href="#skills">Skills</a>
         <a class="py-2 d-none d-md-inline-block" href="#">Project</a>
+        <a class="py-2 d-none d-md-inline-block" href="#">Self-evaluation</a>
         <a class="py-2 d-none d-md-inline-block" href="#">Contact Me</a>
       </div>
     </nav>
@@ -47,10 +47,17 @@
 
     <!-- Wrap the rest of the page in another container to center all the content. -->
 
+    <h1 id="intro" class="ml1">
+      <span class="text-wrapper">
+        <span class="line line1"></span>
+        <span class="letters">About</span>
+        <span class="line line2"></span>
+      </span>
+    </h1>
     <div class="container marketing">
 
       <!-- Three columns of text below the carousel -->
-      <div id="intro" class="row part2-margintop">
+      <div class="row part2-margintop">
         <div class="col-lg-4 part2-icon">
           <img class="rounded-circle" data-feather="user" width="100" height="100">
           <h4>Information</h4>
@@ -75,6 +82,51 @@
       </div><!-- /.row -->
     </div>
 
+    <h1 id="work" class="ml1">
+      <span class="text-wrapper">
+        <span class="line line1"></span>
+        <span class="letters">Work</span>
+        <span class="line line2"></span>
+      </span>
+    </h1>
+
+    <div class="case-items">
+    	<div class="case-item-left">
+        <a href="https://guiker.com/en/" class="guiker-image-overlay">View<br>Guiker</a>
+        <h3>Junior web developer intership<br> Guiker, Montreal 2017.2 - 2017.8 </h3>
+        <span>Language:  AngularJS1.0, HTML, SASS</span><br>
+        <span>Version control system:  Bitbucket</span><br>
+        <span>Task management:  Asana</span><br>
+        <span>IDE:  Sublime Text, Eclipse</span><br>
+        <p>Some functions I completed:</p>
+        <span class="small-font">1. Build user’s profile pages which including basic information about the user. </span><br>
+        <span class="small-font">One static page is used to display user’s personal information. </span><br>
+        <span class="small-font">If the user wants to change it, it can jump to the editing page through a small button.</span><br><br>
+        <span class="small-font">2. Add the “Lease” component. When user want to book the room using our website,</span><br>
+        <span class="small-font">we offer the electronic lease which can be signed online. </span><br>
+        <span class="small-font">Only after both landlord and renter agree with the lease and sign it, the process could be done.</span>
+
+      </div>
+      <div class="case-item-right">
+        <div class="case-item-right-up">
+          <a href="http://www.caiex.com/" class="guiker-image-overlay">View<br>Caiex</a>
+          <br><h3>Junior java developer internship<br> Caiex, Beijing, China  2015.1-2015.5 </h3>
+          <span>Language:  Java</span><br>
+          <span>IDE: Eclipse</span><br>
+          <p>Overview:</p>
+          <span>Helped to develop the Caiex website and write test cases.</span>
+        </div>
+        <div class="case-item-right-down">
+        <a href="http://www.guychanchive.com/" class="guiker-image-overlay">View<br>Website</a>
+        <br><h3>Wedding photographer assistant<br> Guychanchive, Montreal 2015.10 - 2017.1 </h3>
+        <span>IDE: Wix</span><br>
+        <p>Overview:</p>
+        <span>1. Build basic functions of the website using WIX.</span><br>
+        <span>2. Edit photos using Adobe Photoshop CC, Indesign.</span>
+        </div>
+      </div>
+    </div>
+
   </main>
 
     <!-- Optional JavaScript -->
@@ -87,6 +139,12 @@
     <script>
       feather.replace();
     </script>
+
+    <!-- Work -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+
+    <!-- Custom JS -->
+    <script src="js/default.js"></script>
 
   </body>
 </html>

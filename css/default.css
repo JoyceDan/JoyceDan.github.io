@@ -18,6 +18,10 @@
   background:rgba(0,0,0,0.5);
 }
 
+.small-font {
+  font-size: 12px;
+}
+
 .firstWord {
   color: #ee7062;
   font-size: 28px;
@@ -74,4 +78,118 @@
 
 .part2-icon:hover{
   color: rgba(205,92,92,0.75)
+}
+
+/* Part 3 - work */
+.ml1 {
+  font-weight: 900;
+  font-size: 34px;
+  margin-left: 40px;
+  margin-top: 20px;
+}
+
+.ml1 .letter {
+  display: inline-block;
+  line-height: 1em;
+}
+
+.ml1 .text-wrapper {
+  position: relative;
+  display: inline-block;
+  padding-top: 0.1em;
+  padding-right: 0.05em;
+  padding-bottom: 0.15em;
+}
+
+.ml1 .line {
+  opacity: 0;
+  position: absolute;
+  left: 0;
+  height: 3px;
+  width: 100%;
+  background-color: #5a5a5a;
+  transform-origin: 0 0;
+}
+
+.ml1 .line1 { top: 0; }
+.ml1 .line2 { bottom: 0; }
+
+.case-items {
+  height: 445px;
+  width: 1144px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+}
+
+.case-item-left {
+  width: 50%;
+  height: inherit;
+  float: left;
+  background-color: rgba(32,201,151,0.7)
+}
+
+.case-item-left h3 {
+  margin-top: 30px;
+  margin-left: 30px;
+}
+
+.case-item-left span, .case-item-right span {
+  margin-top: 50px;
+  margin-left: 30px;
+}
+
+.case-item-left p, .case-item-right p {
+  margin-top: 10px;
+  margin-left: 30px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.case-item-left a, .case-item-right a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.case-item-right {
+  width: 50%;
+  height: 100%;
+  float: right;
+}
+
+.case-item-right-up {
+  width: 100%;
+  height: 50%;
+  background-color: rgba(255,193,7,0.7);
+}
+
+.case-item-right-up h3, .case-item-right-down h3{
+  margin-left: 30px;
+}
+
+
+.case-item-right-down {
+  width: 100%;
+  height: 50%;
+  background-color: rgba(3,193,7,0.7);
+}
+
+.guiker-image-overlay {
+  top: 0;
+  right: 20px;
+  float: right;
+  padding: 5px 15px;
+  background-color: #000;
+  color: #fff;
+  font-size: 12px;
+  visibility: hidden;
+
+}
+
+.case-item-left:hover>.guiker-image-overlay, .case-item-right-up:hover>.guiker-image-overlay, .case-item-right-down:hover>.guiker-image-overlay {
+  visibility:visible;
+  float: right;
+  will-change: transform;
+  transform: translateY(150px);
+  transition: transform 1s cubic-bezier(0.215, 0.61, 0.355, 1);
 }
