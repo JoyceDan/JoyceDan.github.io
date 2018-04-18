@@ -132,6 +132,7 @@
 .case-item-left h3 {
   margin-top: 30px;
   margin-left: 30px;
+  font-family: 'Jua', sans-serif;
 }
 
 .case-item-left span, .case-item-right span {
@@ -165,6 +166,7 @@
 
 .case-item-right-up h3, .case-item-right-down h3{
   margin-left: 30px;
+  font-family: 'Jua', sans-serif;
 }
 
 
@@ -192,4 +194,26 @@
   will-change: transform;
   transform: translateY(150px);
   transition: transform 1s cubic-bezier(0.215, 0.61, 0.355, 1);
+}
+
+.skill {
+  margin: 20px;
+}
+
+.form_image {
+  border-radius: 50%;
+  margin-top: 10px;
+  opacity: 0.8;
+}
+
+.skills_head {
+  text-decoration: underline;
+  font-size: 30px;
+  font-weight: 600;
+  font-family: 'Gamja Flower', cursive;
+}
+
+.skills_body {
+  font-size: 20px;
+  font-family: 'Varela Round', sans-serif;
 }
