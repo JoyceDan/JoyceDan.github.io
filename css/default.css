@@ -132,7 +132,7 @@
 .case-item-left h3 {
   margin-top: 30px;
   margin-left: 30px;
-  font-family: 'Jua', sans-serif;
+  font-family: 'Bree Serif', serif;
 }
 
 .case-item-left span, .case-item-right span {
@@ -166,7 +166,7 @@
 
 .case-item-right-up h3, .case-item-right-down h3{
   margin-left: 30px;
-  font-family: 'Jua', sans-serif;
+  font-family: 'Bree Serif', serif;
 }
 
 
@@ -208,9 +208,9 @@
 
 .skills_head {
   text-decoration: underline;
-  font-size: 30px;
-  font-weight: 600;
-  font-family: 'Gamja Flower', cursive;
+  font-size: 25px;
+  font-weight: 500;
+  font-family: 'Jua', sans-serif;
 }
 
 .skills_body {
