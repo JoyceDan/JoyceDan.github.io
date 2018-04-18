@@ -1,2 +1,3 @@
 # JoyceDan.github.io
-Github Page
+This is my profile page including everything about me. 
+If you want to know me, please come in.
