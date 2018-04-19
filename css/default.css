@@ -115,15 +115,12 @@
 .ml1 .line2 { bottom: 0; }
 
 .case-items {
-  height: 445px;
-  width: 1144px;
   margin-left: auto;
   margin-right: auto;
   margin-top: 20px;
 }
 
 .case-item-left {
-  width: 50%;
   height: inherit;
   float: left;
   background-color: rgba(32,201,151,0.7)
@@ -153,7 +150,6 @@
 }
 
 .case-item-right {
-  width: 50%;
   height: 100%;
   float: right;
 }
